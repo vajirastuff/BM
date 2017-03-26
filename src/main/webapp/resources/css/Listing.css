@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 7:47:09 PM
+    Author     : Aruna
+*/
+
+
+.coverbox{
+    margin-top: 30px;
+    
+    height: 375px;
+    border: 0.25px solid #0099ff;
+}
+
+
+.Description{
+    margin-top: 15px;
+    
+    height: 100px;
+    border: 0.25px solid #0099ff;
+}
+
+.Steps{
+    margin-top: 30px;
+    border: 1px solid black;
+    height: 400px;
+    border: 0.25px solid #0099ff;
+}
+
+.Heading
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    
+   
+    
+}
+.container .row .col-md-10 
+{
+    
+    text-align: center;
+   
+    
+}
+
+.boxborder
+{
+    
+    border: 1px solid black;
+   
+    
+}
+
+.stepfooter
+{
+    
+    border: 1px solid #0099ff;
+    height: 25px;
+    border: 0;
+    margin:0;
+    padding: 0;
+        
+    
+}
+
+
+
+
+.listingButton{
+    
+     background:#199e83;
+     display: block;
+     width: 100%;
+     height: 95%;
+    
+     
+  
+   
+}

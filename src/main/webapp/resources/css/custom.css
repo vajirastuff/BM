@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 23, 2017, 2:01:20 AM
+    Author     : Aruna
+*/
+
+        
+
+   
+   .col-md-6 .input-group input{
+        margin-top: 17px;
+        
+        
+    }
+    
+     .col-md-6 .input-group input{
+        height: 45px;
+        color: red;
+        
+    }
+    
+     .col-md-6 .input-group span button{
+        height: 45px;
+        
+    }
+    
+    .col-md-6 .input-group span button{
+        margin-top: 17px;
+        
+    }
+    
+    .col-md-3 {
+        padding-top: 17px;
+        
+    }
+    
+    
+ 
+    
+ .navbar-inverse {
+   background-color: #088A68;
+   
+}
+    
+   
+    
+    .navbar-fixed-top {
+    min-height: 80px;
+    
+}
+    
+
+.ibrainbodytext{
+    padding-left: 165;  
+}

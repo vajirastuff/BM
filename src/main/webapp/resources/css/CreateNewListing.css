@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2017, 7:47:09 PM
+    Author     : Aruna
+*/
+
+.coverbox{
+    margin-top: 30px;
+    
+    height: 375px;
+    border: 0.25px solid #0099ff;
+}
+
+
+.Description{
+    margin-top: 15px;
+    
+    height: 100px;
+    border: 0.25px solid #0099ff;
+}
+
+.Steps{
+    margin-top: 30px;
+    
+    height: 400px;
+    border: 0.25px solid #0099ff;
+}
