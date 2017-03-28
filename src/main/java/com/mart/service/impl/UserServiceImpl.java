@@ -1,7 +1,5 @@
 package com.mart.service.impl;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -59,13 +57,9 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public List<User> getAPIUsers() {
 		RestTemplate restTemplate = new RestTemplate();
-		List <User> list = new ArrayList<User>();
-		
-		List<LinkedHashMap> users = restTemplate.getForObject(APIServerURIConstants.SERVER_URI+APIUserURIConstants.GET_ALL_USER, List.class);
-		for(LinkedHashMap map : users){
-			User u = new User(map.get("id"),map.get("username"),map.get("password"),map.get("email"));
-			list.add(u);
-		}
+		@SuppressWarnings("unchecked")
+		List<User> list = restTemplate.getForObject(APIServerURIConstants.SERVER_URI+APIUserURIConstants.GET_ALL_USER, List.class);
+		System.out.println(list.size());
 		return list;
 	}
 }
