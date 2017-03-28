@@ -23,10 +23,10 @@ public class User extends BaseModel {
     
 	public User(Object object, Object object2, Object object3, Object object4) {
 		super();
-		this.id =  Integer.valueOf((String) object);
-		this.username = (String) object2;
-		this.password = (String) object3;
-		this.email = (String) object4;
+		this.id =  Integer.parseInt(object.toString());
+		this.username = object2.toString();
+		this.password = object3.toString();
+		this.email = object4.toString();
 	}
 	
 	public User() {
